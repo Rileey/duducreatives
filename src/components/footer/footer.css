@@ -1,0 +1,25 @@
+.footer-container {
+    display: flex;
+    background-color: black;
+}
+
+.footer-contents-container {
+    margin: 30px auto 70px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.riley {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.riley-title {
+    color: white;
+    /* font-size: 40px; */
+}
+
+.rights {
+    color: white;
+}

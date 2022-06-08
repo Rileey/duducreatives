@@ -1,0 +1,35 @@
+.nav-container {
+    background-color: #000;
+    
+}
+
+.nav-logo {
+    /* margin: 10px 0; */
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Lexend', sans-serif;
+}
+
+.nav-links {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-link {
+    color: white;
+    margin: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Lexend';
+    transition: 0.4s;
+}
+
+.nav-link:hover {
+    text-decoration: line-through;
+    transition: 0.4s;
+}

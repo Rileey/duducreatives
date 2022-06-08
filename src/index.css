@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Lexend', 'sans-serif', 'Courier New', 'Helvetica Neue'
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
+}
