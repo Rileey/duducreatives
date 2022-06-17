@@ -198,11 +198,12 @@ const Home = () => {
           <div className="our-processes">
             <h1>Our Processes</h1>
             <span className="process-sub">
-            Each creative consultation begins with a call. Here we want to make sure we understand your brand thoroughly and your vision. 
-            Our goal is to see through your eyes as much as possible and know what success looks like to you.
-            After this, our stellar creative team will provide you with insights and a roadmap based on your project requirements.
-            Once aligned, we engage with you to execute each campaign, working as an extension of your team.
-            You will also be provided with a dedicated account manager to ensure that communication is fluid and efficient throughout.
+            Each creative consultation begins with a call. </span>
+           <span className="process-sub"> Here we want to make sure we understand your brand thoroughly and your vision. 
+            Our goal is to see through your eyes as much as possible and know what success looks like to you. </span>
+           <span className="process-sub"> After this, our stellar creative team will provide you with insights and a roadmap based on your project requirements.
+            Once aligned, we engage with you to execute each campaign, working as an extension of your team. </span>
+           <span className="process-sub"> You will also be provided with a dedicated account manager to ensure that communication is fluid and efficient throughout.
             We love to work with disruptive brands who are interested in telling their stories in the most creative and authentic way.
             </span>
             <span className="sub-sub">
