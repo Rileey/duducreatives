@@ -57,7 +57,7 @@ const Home = () => {
                 Welcome to DÚDÚ studios.
               </span>
               <span className="message">
-              dúdú is an African collective focused on telling brand stories htat create authentic emotional connections with audiences.
+              dúdú is an African collective focused on telling brand stories that create authentic emotional connections with audiences.
               </span>
               </div>
             </div>
