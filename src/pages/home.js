@@ -182,7 +182,7 @@ const Home = () => {
                 </div>
                 <div className="yellow">
                 <span className="sub-sub">
-                  <a className="sub-sub" href="https://calendly.com/duducreatives">
+                  <a className="sub-sub under" href="https://calendly.com/duducreatives">
                   Schedule a FREE 15 Minutes Consultation.
                   </a>
                 </span>
