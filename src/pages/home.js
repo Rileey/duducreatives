@@ -37,9 +37,6 @@ const Home = () => {
               <span className="overlay-writeup">
               Our vision is to portray global stories from an African perspective with International standards and cultural relevance.
               </span>
-              <Link to="/about-us">
-              <button type="button" className="overlay-button">More Info</button>
-              </Link>
               </div>
             </div>
             <video
