@@ -1,7 +1,7 @@
-import one from '../../images/1.JPG'
-import two from '../../images/2.JPG'
-import three from '../../images/3.JPG'
-import four from '../../images/4.JPG'
+import one from '../../images/1.jpeg'
+import two from '../../images/2.jpeg'
+import three from '../../images/3.jpeg'
+import four from '../../images/4.jpeg'
 
 const slider = [
     one,
