@@ -207,7 +207,7 @@ const Home = () => {
             We love to work with disruptive brands who are interested in telling their stories in the most creative and authentic way.
             </span>
             <span className="sub-sub">
-                <a className="sub-sub" href="https://calendly.com/duducreatives">
+                <a className="sub-sub under" href="https://calendly.com/duducreatives">
                   Schedule a FREE 15 Minutes Consultation.
                 </a>
             </span>
