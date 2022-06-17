@@ -17,7 +17,9 @@
 
 .riley-title {
     color: white;
-    /* font-size: 40px; */
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lexend';
 }
 
 .rights {

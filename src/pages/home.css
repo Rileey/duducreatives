@@ -46,6 +46,7 @@
   
   .message {
     color: #fff;
+    font-family: 'Lexend';
   }
   
   .overlay {
@@ -56,6 +57,35 @@
     width: 100%;
     height: 100%;
   }
+
+  .carousel-container {
+    position: relative;
+  }
+
+  .next {
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 50%;
+    right: 20px;
+  }
+  
+
+  .prev {
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 50%;
+    left: 20px;
+   }
   
   .overlay-writeup-container {
     color: #fff;
@@ -67,6 +97,102 @@
     z-index: 1;
   }
   
+  .wwd-h1 {
+    color: #fff;
+    font-family: 'Lexend';
+  }
+
+  .wwd-container {
+    display: flex;
+    color: #fff;
+    font-family: 'Lexend';
+  }
+
+  .wwd-img {
+    width: 50%;
+  }
+
+  .left-img {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .right-img {
+    display: flex;
+    width:  100%;
+    margin: 0 auto;
+  }
+
+  .wwd-writeup {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+
+  .wwd-sub {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: #fff;
+  }
+
+  h2 {
+    display: flex;
+    margin: auto;
+    text-align: center;
+  }
+
+  li {
+    line-height: 50px;
+  }
+
+  .our-processes {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+  }
+
+  .sub-sub {
+    background-color: gold;
+    color: #000;
+    padding: 10px;
+    width: fit-content;
+    cursor: pointer;
+    transition: 0.4s;
+    font-family: 'Lexend';
+  }
+
+  .sub-sub:hover {
+    transition: 0.4s;
+    color: #fff;
+    background-color: rgb(208, 177, 2);
+    text-decoration: underline;
+  }
+
+  .process-sub {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lexend';
+    line-height: 50px;
+  }
+
+  .writeup-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .calendly {
+    
+  }
+
   .overlay-title {
       font-size: 70px;
       font-weight: 600;
@@ -75,6 +201,11 @@
   
   .overlay-writeup {
     width: 600px;
+    font-family: 'Lexend';
+  }
+
+  .yellow {
+    text-align: center;
   }
   
   .overlay-button {
@@ -106,9 +237,9 @@
   }
   
   .client-logo {
-    height: 100px;
-    width: auto;
-    margin-right: 40px;
+    height: 80px;
+    display: flex;
+    margin: 0 10px;
   }
   
   .clients {
@@ -129,7 +260,10 @@
   .client-list {
     padding: 70px 30px;
     display: flex;
-    overflow: scroll;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   
   .client-list::-webkit-scrollbar {
@@ -158,10 +292,55 @@
     }
   }
   
-  @media only screen and (max-width: 768px){
+  @media only screen and (max-width: 880px){
     .overlay-title {
       font-size: 25px;
     }
+
+    .wwd-h1 {
+      font-size: 20px;
+    }
+
+    h2 {
+      font-size: 19px;
+    }
+    .wwd-sub {
+      font-size: 14px;
+    }
+
+    li {
+      line-height: 30px;
+    }
+
+    .wwd-container {
+      flex-direction: column-reverse;
+    }
+
+    .wwd-img {
+      width: 100%;
+    }
+
+    .wwd-writeup {
+      width: 100%;
+      margin-top: 50px;
+    }
+
+    .process-sub {
+      font-size: 14px;
+    }
+
+    .sub-sub {
+      font-size: 14px;
+    }
+
+    .our-processes > h1 {
+      font-size: 20px;
+    }
+
+    .left-img {
+      margin-top: 50px;
+    }
+
     .overlay-writeup {
       font-size: 13px;
       width: auto;
@@ -175,8 +354,18 @@
       padding: 0px 60px 0 20px;
       margin-left: 0;
     }
+
+    .writeup-container {
+      width: 100%;
+    }
+
     .client-logo {
       height: 60px;
+      margin: 20px auto;
+    }
+    .client-list {
+      grid-template-columns: 1fr 1fr;
+      margin: 0 auto;
     }
   }
   
@@ -211,6 +400,17 @@
   
     .message {
       font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 425px){
+    .client-list {
+      grid-template-columns: 1fr;
+      margin: 0 auto;
+    }
+    .client-logo {
+      width: 50%;
+      margin: 30px auto;
     }
   }
   
