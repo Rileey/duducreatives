@@ -1,8 +1,8 @@
 import NavBar from '../components/navbar/navbar';
 import Footer from '../components/footer/footer'
 import './home.css'
-import { Link } from 'react-router-dom';
-import image from '../images/IMG_9910.jpg'
+// import { Link } from 'react-router-dom';
+import image from '../images/IMG_9910.jpeg'
 import nigerianBrewries from "../images/nb.png"
 import jameson from "../images/jameson.png"
 import walker from "../images/walker.svg"
