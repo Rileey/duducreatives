@@ -47,17 +47,17 @@
   .schedule{
     color: white;
     display: flex;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Lexend';
     justify-content: center;
     align-items: center;
     margin: 50px 0;
     font-weight: 200;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .message {
     color: #fff;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Lexend';
   }
   
   .overlay {
@@ -304,6 +304,9 @@
   }
   
   @media only screen and (max-width: 880px){
+    .welcome {
+      font-size: 25px;
+    }
     .overlay-title {
       font-size: 25px;
     }
