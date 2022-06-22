@@ -141,6 +141,9 @@ input[type=text], input[type=email], input[type=number] {
     }
 }
 @media only screen and (max-width: 425px) { 
+    .compact-contact-container{
+        width: 100%;
+    }
     .inpu-t{
         width: 88%;
     }
