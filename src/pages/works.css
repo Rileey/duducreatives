@@ -34,3 +34,21 @@
     color: #ffffff;
     font-family: 'Lexend';
 }
+
+@media screen and (max-width: 800px){
+    .player-cont {
+        margin: 20px 10px;
+    }
+
+    .write {
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .write {
+        width: 100%;
+        font-size: 10px;
+    }
+}
