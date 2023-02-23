@@ -1,0 +1,36 @@
+.works-container {
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.player-cont {
+    margin: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.write {
+    width: 70%; 
+    margin: 10px 0;   
+}
+
+.vimeo {
+    width:100%;
+    height:360px;
+}
+
+.work-title {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.desc {
+    color: #ffffff;
+    font-family: 'Lexend';
+}
