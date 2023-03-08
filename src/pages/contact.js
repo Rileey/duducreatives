@@ -40,7 +40,7 @@ const Contact = () => {
             <span className="social-item"><a href="tel:+234-808-999-9844"><i class="fas fa-mobile"></i>+234-808-99-9844</a></span>     
             </div>
             <div className="calendly">
-          <InlineWidget url="https://calendly.com/duducreatives/15min" />
+            <InlineWidget url="https://calendly.com/duducreatives/consultation_call" />
           </div>
       </div>
   </div>

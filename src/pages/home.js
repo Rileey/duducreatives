@@ -83,7 +83,7 @@ const Home = () => {
           <span className="schedule" id="contact">
                 Schedule a meeting with us
               </span>
-          <InlineWidget url="https://calendly.com/duducreatives/15min" />
+          <InlineWidget url="https://calendly.com/duducreatives/consultation_call" />
           </div>
         <Footer/>
       </div>  
