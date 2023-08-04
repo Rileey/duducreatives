@@ -39,6 +39,15 @@ const Contact = () => {
             <div className="number">
             <span className="social-item"><a href="tel:+234-808-999-9844"><i class="fas fa-mobile"></i>+234-808-99-9844</a></span>     
             </div>
+
+            {/* <form ref={form} onSubmit={sendEmail} className="form">
+            <input type="text" name="subject" id="subject" placeholder="Subject" className="input" />
+            <input type="text" name="name" id="name" placeholder="Your Full Name" className="input" />
+            <input type="email" name="email" id="email" placeholder="Your Email Address" className="input" />
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="What would you like me to do for you?" className="text-area"></textarea>
+            <input type="submit" value="Submit" className="input-btn" />
+          </form> */}
+          
             <div className="calendly">
             <InlineWidget url="https://calendly.com/duducreatives/consultation_call" />
           </div>

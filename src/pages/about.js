@@ -1,10 +1,4 @@
 import NavBar from '../components/navbar/navbar';
-import {MdLiveTv}  from "react-icons/md"
-import {GiFilmProjector} from "react-icons/gi"
-import {FcAdvertising} from "react-icons/fc";
-import {BsFillCameraReelsFill} from "react-icons/bs"
-import {FaCameraRetro} from "react-icons/fa"
-import {MdEventAvailable} from "react-icons/md"
 import './about.css'
 import React, { useRef, useState } from 'react'
 import Footer from '../components/footer/footer';
@@ -37,75 +31,7 @@ const About = () => {
                     </span>
                 </div>
             </div>
-            </div>
-
-            <div className="icons-container">
-                <div className="ico-n" onMouseOver={()=>setShow(true)} onMouseLeave={()=>setShow(false)}>
-                    <MdEventAvailable style={{fontSize: '3rem', margin: '50px', cursor: 'pointer', color: 'white',}}/>
-                    {
-                        show && (
-                            <span className="ico-n-description" >Events</span>
-                        )
-                    }
-                </div>
-                <div className="ico-n" onMouseOver={()=>setShow2(true)} onMouseLeave={()=>setShow2(false)}>
-                    <BsFillCameraReelsFill style={{fontSize: '3rem', margin: '50px', cursor: 'pointer', color: 'white',}}/>
-                    {
-                        show2 && (
-                            <span className="ico-n-description" >Music Videos</span>
-                        )
-                    }
-                </div>
-                <div className="ico-n" onMouseOver={()=>setShow3(true)} onMouseLeave={()=>setShow3(false)}>
-                    <FaCameraRetro style={{fontSize: '3rem', margin: '50px', cursor: 'pointer', color: 'white',}}/>
-                    {
-                        show3 && (
-                            <span className="ico-n-description" >Photography</span>
-                        )
-                    }
-                </div>
-                <div className="ico-n" onMouseOver={()=>setShow4(true)} onMouseLeave={()=>setShow4(false)}>
-                    <GiFilmProjector style={{fontSize: '3rem', margin: '50px', cursor: 'pointer', color: 'white',}}/>
-                    {
-                        show4 && (
-                            <span className="ico-n-description" >Film Production</span>
-                        )
-                    }
-                </div>  
-                <div className="ico-n" onMouseOver={()=>setShow5(true)} onMouseLeave={()=>setShow5(false)}>  
-                    <FcAdvertising style={{fontSize: '3rem', margin: '50px', cursor: 'pointer', color: 'white',}}/>
-                    
-                    {
-                        show5 && (
-                            <span className="ico-n-description">Commercials</span>
-                        )
-                    }
-                </div>
-                <div className="ico-n" onMouseOver={()=>setShow6(true)} onMouseLeave={()=>setShow6(false)}>  
-                    <MdLiveTv style={{fontSize: '3rem', margin: '50px', cursor: 'pointer', color: 'white',}}/>
-                    
-                    {
-                        show6 && (
-                            <span className="ico-n-description">Live Shows</span>
-                        )
-                    }
-                </div>
-            </div>
-
-
-            <div className="projects-container">
-                <div className="about-heading">
-                <div className="our-processes">
-                    <div className="about-title">
-                        Projects
-                    </div>
-                    <div className="process-sub">
-                    DUDU LIVE - Dudu live is a collection of  live performances by some of Africa’s finest music artistes. Each performance comprises of a live intimate acoustic session. 
-                    </div>
-                </div>
-                </div>
-            </div>   
-
+            </div>  
             <div className="about-container">
                 <div className="about-heading">
                 <div className="our-processes">
@@ -120,7 +46,7 @@ const About = () => {
             We love to work with disruptive brands who are interested in telling their stories in the most creative and authentic way.
             </span>
             <span className="sub-sub">
-                <a className="sub-sub under" href="https://calendly.com/duducreatives/consultation_call">
+                <a className="under" href="https://calendly.com/duducreatives/consultation_call">
                   Schedule a FREE 15 Minutes Consultation.
                 </a>
             </span>
