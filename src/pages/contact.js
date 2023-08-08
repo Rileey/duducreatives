@@ -1,5 +1,6 @@
 import React, {useRef} from 'react';
-// import 'dotenv/config'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import emailjs from "@emailjs/browser"
 import NavBar from '../components/navbar/navbar'
 import { InlineWidget } from "react-calendly";
@@ -7,6 +8,7 @@ import "./contact.css"
 import Footer from '../components/footer/footer';
 
 const Contact = () => {
+  const notify = () => toast("Email delivered!");
   const form = useRef();
 
   function sendEmail(e){
@@ -46,7 +48,8 @@ const Contact = () => {
             <input type="text" name="name" id="name" placeholder="Your Full Name" className="input" />
             <input type="email" name="email" id="email" placeholder="Your Email Address" className="input" />
             <textarea name="message" id="message" cols="30" rows="10" placeholder="What would you like me to do for you?" className="text-area"></textarea>
-            <input type="submit" value="Submit" className="input-btn" />
+            <input type="submit" onClick={notify} value="Submit" className="input-btn" />
+            <ToastContainer />
           </form>
           
             <div className="calendly">
