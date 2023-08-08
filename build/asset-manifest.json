@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.cdae626e.css",
-    "main.js": "/static/js/main.452b5a70.js",
+    "main.css": "/static/css/main.fe2d356a.css",
+    "main.js": "/static/js/main.986fb03e.js",
     "static/media/dudu-reel.mp4": "/static/media/dudu-reel.dbec4f879fecad5a8763.mp4",
     "static/media/1.jpeg": "/static/media/1.741a3630751e2a99a648.jpeg",
     "static/media/3.jpeg": "/static/media/3.b655eb6ab7083ae99528.jpeg",
     "static/media/4.jpeg": "/static/media/4.520367e473c601bb5ebd.jpeg",
     "static/media/2.jpeg": "/static/media/2.780ebf1511ea0ab5c051.jpeg",
+    "static/media/CBN.png": "/static/media/CBN.2e156b55d69b178ee6b4.png",
     "static/media/IMG_9910.jpeg": "/static/media/IMG_9910.b256f5d1995b95a72184.jpeg",
-    "static/media/tb.png": "/static/media/tb.d64e070fa4114bfe61cd.png",
-    "static/media/jameson.png": "/static/media/jameson.1c7d3fb6a0889471a9d1.png",
-    "static/media/nb.png": "/static/media/nb.0d5bab81562675995de3.png",
-    "static/media/walker.svg": "/static/media/walker.45004018d36be9a3b783b652058aac99.svg",
+    "static/media/softcom.png": "/static/media/softcom.88091817e7b368de3d4b.png",
+    "static/media/Gtbank.png": "/static/media/Gtbank.a32ae47c48c2ee225ee8.png",
+    "static/media/Umba.png": "/static/media/Umba.0a3d56cbc916597a2e70.png",
+    "static/media/maggi.jpg": "/static/media/maggi.b7548ebad2243daa4abb.jpg",
     "index.html": "/index.html",
-    "main.cdae626e.css.map": "/static/css/main.cdae626e.css.map",
-    "main.452b5a70.js.map": "/static/js/main.452b5a70.js.map"
+    "main.fe2d356a.css.map": "/static/css/main.fe2d356a.css.map",
+    "main.986fb03e.js.map": "/static/js/main.986fb03e.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdae626e.css",
-    "static/js/main.452b5a70.js"
+    "static/css/main.fe2d356a.css",
+    "static/js/main.986fb03e.js"
   ]
 }

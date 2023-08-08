@@ -1,4 +1,5 @@
 import React, {useRef} from 'react';
+// import 'dotenv/config'
 import emailjs from "@emailjs/browser"
 import NavBar from '../components/navbar/navbar'
 import { InlineWidget } from "react-calendly";
@@ -11,7 +12,7 @@ const Contact = () => {
   function sendEmail(e){
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_t4xt03q', form.current, 'user_6GG8FBi4TqImBUfmGJ7dW')
+    emailjs.sendForm(`${process.env.REACT_APP_serviceID}`, `${process.env.REACT_APP_templateID}`, form.current, `${process.env.REACT_APP_publicKey}`)
     .then((result) => {
       console.log(result.text);
     }, (error) => {
@@ -40,13 +41,13 @@ const Contact = () => {
             <span className="social-item"><a href="tel:+234-808-999-9844"><i class="fas fa-mobile"></i>+234-808-99-9844</a></span>     
             </div>
 
-            {/* <form ref={form} onSubmit={sendEmail} className="form">
+            <form ref={form} onSubmit={sendEmail} className="form">
             <input type="text" name="subject" id="subject" placeholder="Subject" className="input" />
             <input type="text" name="name" id="name" placeholder="Your Full Name" className="input" />
             <input type="email" name="email" id="email" placeholder="Your Email Address" className="input" />
             <textarea name="message" id="message" cols="30" rows="10" placeholder="What would you like me to do for you?" className="text-area"></textarea>
             <input type="submit" value="Submit" className="input-btn" />
-          </form> */}
+          </form>
           
             <div className="calendly">
             <InlineWidget url="https://calendly.com/duducreatives/consultation_call" />
